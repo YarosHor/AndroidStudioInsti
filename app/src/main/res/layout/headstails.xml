@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt3tails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tails"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt3heads"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+
+    <Button
+        android:id="@+id/bt3heads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="Heads"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="76dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="38dp"
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#C3A50E"
+            android:text="Hi"
+            android:textSize="10sp"
+            android:textStyle="bold|italic"
+            app:iconTint="#5C2020" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="38dp"
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#C3A50E"
+            android:text="Fact"
+            android:textSize="10sp"
+            android:textStyle="bold|italic"
+            app:iconTint="#5C2020" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="38dp"
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#C3A50E"
+            android:text="Coin"
+            android:textSize="10sp"
+            android:textStyle="bold|italic"
+            app:iconTint="#5C2020" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="38dp"
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#C3A50E"
+            android:text="RPS"
+            android:textSize="10sp"
+            android:textStyle="bold|italic"
+            app:iconTint="#5C2020" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Heads or Tails"
+        android:textColor="#DA2222"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Make your bets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv31" />
+
+    <TextView
+        android:id="@+id/tv3result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv32"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv32"
+        app:layout_constraintVertical_bias="0.078"
+        app:srcCompat="@drawable/question" />
+</androidx.constraintlayout.widget.ConstraintLayout>
