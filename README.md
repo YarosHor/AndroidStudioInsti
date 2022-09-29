@@ -1,2 +1,0 @@
-# AndroidStudioInsti
-Exercises, Programación
